@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scramble demo</title>
+  <style type="text/css">
+  	.content * 
+  	{
+  		display:block;margin-left:auto;margin-right:auto;
+  		text-align: center;
+  	}
+  </style>
+</head>
+<body>
+<div class="content">
+	<h1>Demo image scramble/unscramble.</h1>
+	<h3>Currently will square all images. Works only on Chrome.</h3>
+	<h3>Use matrix of size 29 to unscramble default image.</h3>
+	<h3>For larger matrix sizes the process takes from a few minutes to a few hours, so be patient.</h3>
+	<h3>For reference, default image takes 1 minute to unscramble on a desktop.</h3>
+    <input type="file" id="picField" onchange="preview(this)">
+	<h4 style="display:inline-block;margin-left:38%;margin-bottom:20px">Matrix size:</h4>
+	<input type="text" width="100px" id="number" style="display:inline-block;">
+	<button type="button" onclick="unscramble()" style="display:inline-block">Unscramble</button>
+	<button type="button" onclick="scramble()" style="display:inline-block">Scramble</button>
+	<INPUT TYPE="button" onClick="history.go(0)" VALUE="Refresh" style="margin-bottom:20px">
+	<img id="myImage" src="scrambled.bmp">
+</div>
+<canvas id="myCanvas" style="display:none"></canvas>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
