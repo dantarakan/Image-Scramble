@@ -1,4 +1,4 @@
-Image-Scramble
+Image Scramble
 ==============
 
 Basic JavaScript example of scrambling and unscrambling images using matrices.
