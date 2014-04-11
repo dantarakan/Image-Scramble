@@ -21,7 +21,7 @@ Current limitations:
 
 1) All images will be squared upon scrambling/unscrambling. So 1024x764 image will turn to 764x764.
 
-2) Example works on Chrome only.
+~~2) Example works on Chrome only.~~
 
 ~~3) No indication of the current progress.~~
 
