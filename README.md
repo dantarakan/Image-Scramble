@@ -23,6 +23,6 @@ Current limitations:
 
 2) Example works on Chrome only.
 
-3) No indication of the current progress.
+~~3) No indication of the current progress.~~
 
-4) When doing scrambling/unscrambling using large martices, the page will become unresponsive and the browser will complain.
+~~4) When doing scrambling/unscrambling using large martices, the page will become unresponsive and the browser will complain.~~
